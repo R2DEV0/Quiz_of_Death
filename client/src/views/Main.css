@@ -1,0 +1,29 @@
+.main{
+    text-align: center;
+    background-color: black;
+    min-height:100%;
+    margin-top:3%;
+    border-radius:5px;
+    border:2px solid red;
+}
+
+.button{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.skull{
+    height: 450px;
+}
+
+@media screen and (max-width: 992px) {
+    .skull{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skull{
+        height: 250px;
+    }
+}

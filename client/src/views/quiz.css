@@ -1,0 +1,16 @@
+.test{
+    border: 1px solid rgb(224, 28, 28);
+    border-radius: 5px;
+    padding: 15px 0px 25px 20px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-color: rgba(54, 44, 44, 0.952);
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px darkred;
+}
+
+.question{
+    font-weight:bold;
+    font-size: 20px;
+}
+

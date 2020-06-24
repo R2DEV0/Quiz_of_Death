@@ -1,0 +1,28 @@
+.list{
+    overflow: auto;
+    max-height: 600px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(54, 44, 44, 0.856);
+    margin-top: 10px;
+}
+
+.questions{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gray;
+    margin-bottom: 3px;
+    margin-top: 6px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px red;
+}
+
+input[type=text] {
+    background-color: whitesmoke;
+}
+
+input[type=text]:focus {
+    background-color: rgba(54, 44, 44, 0.856);
+    color: whitesmoke;
+}

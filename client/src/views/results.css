@@ -1,0 +1,23 @@
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px red;
+}
+
+.message{
+    font-size: 50px;
+    font-weight: bold;
+    animation:blinkingText 2s infinite;
+    font-family: sans-serif;
+    margin-top: 5%;
+    text-shadow: 2px 2px 4px red;
+}
+
+@keyframes blinkingText{
+    0%{     color: #000; text-shadow: 2px 2px 4px red; }
+    49%{    color: #000; text-shadow: 2px 2px 4px red; }
+    60%{    color: transparent; text-shadow: none; }
+    99%{    color:transparent;  text-shadow: none;}
+    100%{   color: #000;  text-shadow: 2px 2px 4px red;   }
+}

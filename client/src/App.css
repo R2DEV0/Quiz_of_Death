@@ -1,0 +1,16 @@
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    color: w
+}
+
+.title{
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 1%;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px red;
+}
