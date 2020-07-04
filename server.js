@@ -16,5 +16,4 @@ app.use(express.urlencoded({ extended: true }));
 
 require('./server/routes/quiz.routes')(app);
 
-
 app.listen(8000, () => console.log('listening on port: 8000'));
