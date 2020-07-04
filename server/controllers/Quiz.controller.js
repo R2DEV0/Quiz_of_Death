@@ -1,5 +1,6 @@
 const { Quiz } = require('../models/quiz.model');
 
+
 module.exports.createQuiz = (req, res) => {
     const {question, answers, right_answer} = req.body;
     Quiz.create({
