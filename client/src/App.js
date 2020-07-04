@@ -8,13 +8,12 @@ import Results from './views/Results';
 import ParticlesBg from 'particles-bg';
 import Main from './views/Main';
 
-
 function App() {
   const [count, setCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
 
   return (
-    <div className='container'>
+    <div className='container offset-6'>
       <ParticlesBg type="cobweb" bg={true} />
         <h3 className='title'> QUIZ of DEATH </h3>
         <Router>
