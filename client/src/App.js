@@ -13,17 +13,19 @@ function App() {
   const [wrongCount, setWrongCount] = useState(0);
 
   return (
-    <div className='container offset-6'>
-      <ParticlesBg type="cobweb" bg={true} />
-        <h3 className='title'> QUIZ of DEATH </h3>
-        <Router>
-          <Main path='/'/>
-          <Quiz path='/quiz' count={count} setCount={setCount} setWrongCount={setWrongCount} wrongCount={wrongCount}/>
-          <EditQuiz path='/edit'/>
-          <AddQuiz path='/add'/>
-          <Results path='/results' count={count} wrongCount={wrongCount}/>
-        </Router>
-    </div>
+      <div>
+        <ParticlesBg type="cobweb" bg={true} />
+        <div className='col-sm-12 col-md-12 offset-md-6 col-lg-12 offset-lg-6'>
+            <h3 className='title'> QUIZ of DEATH </h3>
+            <Router>
+              <Main path='/'/>
+              <Quiz path='/quiz' count={count} setCount={setCount} setWrongCount={setWrongCount} wrongCount={wrongCount}/>
+              <EditQuiz path='/edit'/>
+              <AddQuiz path='/add'/>
+              <Results path='/results' count={count} wrongCount={wrongCount}/>
+            </Router>
+        </div>
+      </div>
   );
 }
 

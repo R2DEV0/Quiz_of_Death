@@ -31,10 +31,10 @@ export default (props) => {
 
     return(
         <div>
-            <Confetti width='900px' height='900px' />
+            <Confetti width='900px' height='900px'/>
             <div className='btn-sm col-md-1 offset-md-10'>
                 <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
-                    <DropdownToggle caret style={{background:'black'}}> Options </DropdownToggle>
+                    <DropdownToggle caret style={{background:'darkred', border:'1px solid red', textShadow: '2px 2px 4px red', color:'whitesmoke'}}> Options </DropdownToggle>
                     <DropdownMenu style={{background:'lightgray'}}>
                         <DropdownItem onClick={TakeQuiz}>Take a Quiz</DropdownItem>
                         <DropdownItem onClick={Remove}>Remove a Question</DropdownItem>
